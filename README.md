@@ -9,7 +9,9 @@
 
 ```
 To preview the site download it (to your own pc).
-You can do this in the top right where it says "Download ZIP"
+You can do this in the top right where it says "CLONE OR DOWNLOAD"
+in the big green button in case you can't find it.
+Select the option "Download ZIP"
 
 Unpack the zip file using any unzipping program.
 (winrar, 7zip, compressor)
