@@ -24,10 +24,9 @@ to open de site simply dubbel click on "index.html" in the root folder.
 * [Normalize]()
 * [JQuery]()
 
-## Ignore everything below this, this is from a template
-* [Carousel](https://desandro.github.io/3dtransforms/examples/carousel-01.html) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+## Usefull information for me
+* [Carousel](https://desandro.github.io/3dtransforms/examples/carousel-01.html) - CSS3 3d Animation explanation
+* [Card Flip](https://desandro.github.io/3dtransforms/docs/card-flip.html) - CSS3 3d Animation explanation
 
 ## Authors
 
