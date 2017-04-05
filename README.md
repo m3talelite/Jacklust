@@ -5,11 +5,8 @@
 * The only things you need is a browser, any sane webbrowser will do.
 * Unpacking tool like winrar, 7zip, compressor, ect. (will add links to download the programs)
 
-```
-Give examples
-```
-
 ## Getting Started
+
 ```
 To preview the site download it (to your own pc).
 You can do this in the top right where it says "Download ZIP"
@@ -17,17 +14,24 @@ You can do this in the top right where it says "Download ZIP"
 Unpack the zip file using any unzipping program.
 (winrar, 7zip, compressor)
 
-Now you have several folders where you have unpacked, to open de site simply dubbel click on "index.html" in the root folder.
+Now you have several folders where you have unpacked, 
+to open de site simply dubbel click on "index.html" in the root folder.
 ```
 
+## Frameworks
+* [Bootstrap]()
+* [Bootswatch Theme]()
+* [Normalize]()
+* [JQuery]()
+
 ## Ignore everything below this, this is from a template
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Carousel](https://desandro.github.io/3dtransforms/examples/carousel-01.html) - The web framework used
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ## Authors
 
-* **Jelle Braat** - *Initial work* 
+* **Jelle Braat**
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
@@ -40,6 +44,8 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * Hat tip to anyone who's code was used
 * Inspiration
 * etc
+
+*Initial work* 
 
 ## Image
 
