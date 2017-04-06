@@ -5,7 +5,7 @@ var ENUMPAGE = {
 
 function handlePage(enumPage) {
 	switch (enumPage) {
-		case ENUMPAGE.HOME: handleNavigation("home.html"); break;
+	//	case ENUMPAGE.HOME: handleNavigation("../container.html"); break;
 		case ENUMPAGE.ABOUT: console.log("about"); break;
 		default: console.log("default");
 	}
@@ -20,4 +20,11 @@ function handleNavigation(url) {
     $.get(url, function (data) {
         $("#view-container").append(data);
     });
+}
+
+function flipCard(cardId) {
+	if (!$("#card-" + cardId).hasClass("flipped"))
+		$("#card-" + cardId).addClass('flipped');
+	else 
+		$("#card-" + cardId).removeClass('flipped');
 }
