@@ -2,7 +2,9 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
+		<link rel="icon" type="image/x-icon" href="assets/favicon_rounded.ico">
 		<title>Jacklust</title>
+		
 		<script src="scripts/main.js"> </script>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
@@ -29,13 +31,20 @@
 			      <ul class="nav navbar-nav">
 			        <li><a href="#">home</a></li>
 			        <li><a href="#">about</a></li>
-			        <li><a href="#">members</a></li>
 			        <li><a href="#">media</a></li>
 			        <li class="dropdown">
 			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> shows <span class="caret"></span></a>
 			          <ul class="dropdown-menu" role="menu">
-			            <li><a href="#">Upcomming</a></li>
-			            <li><a href="#">Past</a></li>
+			            <li>
+			            	<a href="#">Upcomming 
+			            		<span class="badge pull-right">14</span> 
+		            		</a>
+	            		</li>
+			            <li>
+			            	<a href="#">Past
+			            		<span class="badge pull-right">200</span> 
+		            		</a>
+		            	</li>
 			          </ul>
 			        </li>
 			      </ul>
@@ -47,73 +56,37 @@
 		</div>
 
 		<div id="view-container" class="container">
-			<div class="jumbotron">
-				<h1 class="center page-jumbotron-h1">Welcome!</h1>
-				<div class="row center">
-					Sup guys, welcome to our brand new and incredibly sexy page. Plenty of stuff to do here, go listen to some of our music, or just enjoy our sexy pictures. Enjoy yer stay bitches!
-				</div>
-				<div class="row ">
-					<div class="col-sm-6">
-						
-						<section class="flip-card center" onmouseenter="flipCard(0)" onmouseleave="flipCard(0)">
-						  	<div id="card-0" class="card">
-						    	<figure class="front card-front-jelt"></figure>
-						    	<figure class="back">
-						    		<div class="row">
-						    			<div class="col-xs-12">
-						    				<p>Hoi ik ben jelt</p>
-						    			</div>
-						    		</div>
-						    	</figure>
-						  	</div>
-						</section>
+			<!--<div class="jumbotron"> -->
+			<div class="">
+				
 
-					</div>
-					<div class="col-sm-6">
-						<section class="flip-card center" onmouseenter="flipCard(1)" onmouseleave="flipCard(1)">
-						  	<div id="card-1" class="card">
-						    	<figure class="front card-front-tim"></figure>
-						    	<figure class="back">
-						    		<div class="row">
-						    			<div class="col-xs-12">
-						    				<p>Hoi ik ben tim</p>
-						    			</div>
-						    		</div>
-						    	</figure>
-						  	</div>
-						</section>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-6">
-						<section class="flip-card center" onmouseenter="flipCard(2)" onmouseleave="flipCard(2)">
-						  	<div id="card-2" class="card">
-						    	<figure class="front card-front-bart"></figure>
-						    	<figure class="back">
-						    		<div class="row">
-						    			<div class="col-xs-12">
-						    				<p>Hoi ik ben bart</p>
-						    			</div>
-						    		</div>
-						    	</figure>
-						  	</div>
-						</section>
-					</div>
-					<div class="col-sm-6">
-						<section class="flip-card center" onmouseenter="flipCard(3)" onmouseleave="flipCard(3)">
-						  	<div id="card-3" class="card">
-						    	<figure class="front card-front-mor"><p  style="padding-top: 50px">ik heb geen plaatje</p></figure>
-						    	<figure class="back">
-						    		<div class="row">
-						    			<div class="col-xs-12">
-						    				<p>Hoi ik ben mor</p>
-						    			</div>
-						    		</div>
-						    	</figure>
-						  	</div>
-						</section>
+				<!-- FOOTER -->
+				<div class="footer">
+					<div class="row pull-right">
+						<div class="col-md-4 hidden-xs"> </div>
+						<div class="col-xs-3 col-md-2">
+							<a href="https://www.facebook.com/JacklustOfficial/" target="_blank">
+								<img class="social" src="assets/social/facebook.png"/>
+							</a>
+						</div>
+						<div class="col-xs-3 col-md-2">
+			            	<a href="https://www.youtube.com/user/OfficialJacklust/" target="_blank">
+			            		<img class="social" src="assets/social/youtube.png"/>
+			            	</a>
+		            	</div>
+		            	<div class="col-xs-3 col-md-2">
+				            <a href="https://www.instagram.com/JacklustOfficial/" target="_blank">
+				            	<img class="social" src="assets/social/instagram.png"/>
+				            </a>
+			            </div>
+				        <div class="col-xs-3 col-md-2">
+				            <a href="https://soundcloud.com/Jacklust/" target="_blank">
+				            	<img class="social" src="assets/social/soundcloud.png"/>
+			            	</a>
+						</div>
 					</div>
 				</div>
+				<!-- END FOOTER -->
 			</div>
 		</div>
 	</body>

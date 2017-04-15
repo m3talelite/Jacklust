@@ -1,16 +1,17 @@
-.header-home-button {
-	background: pink;
+body {
+	/*background: url("http://jacklust.com/style/img/bg.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%; */
 }
-
 .page-jumbotron-h1 {
 	padding-bottom: 20px;
+	font: normal 175% 'Head Font';
 }
 
-.center {
-    margin: auto;
- 	text-align: center;
-    width: 90%;
- }
+.center { text-align: center; align-content: center; float: none; margin-left: auto; margin-right: auto; vertical-align: center; }
+.bold { font-weight: 700; }
+.semi-bold { font-weight: 500; }
+.no-decoration { text-decoration: none; }
 
 .flip-card {
 	/* TODO: set a fixed width + height for the cards; */
@@ -66,6 +67,34 @@
 	background-position: center;
 }
 
+.iframe-youtube-video {
+	width: 560px;
+	height: 315px;
+}
+
+.social {
+	width: 48px;
+	height: 48px;
+	border-radius: 5px;
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	-o-transform: scale(0.8);
+	-webkit-transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+}
+.social:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+}
+
+.footer {
+	bottom: 0;
+	padding: 10px 0;
+	height: 48px;
+}
+
 .col-h-100-px {
 	height: 100px;
 }
@@ -92,4 +121,28 @@
 }
 .col-h-3 { 
 	height: 12.5%;
+}
+
+/* MEDIA QUERY MD */
+@media only screen and (max-width: 1200px) {
+	.iframe-youtube-video {
+		width: 480px;
+		height: 270px;
+	}
+}
+
+/* MEDIA QUERY SM */
+@media only screen and (max-width: 992px) {
+	.iframe-youtube-video {
+		width: 352px;
+		height: 198px;
+	}
+}
+
+/* MEDIA QUERY XS */
+@media only screen and (max-width: 768px) {
+	.iframe-youtube-video {
+		width: 288px;
+		height: 162px;
+	}
 }
