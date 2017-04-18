@@ -7,8 +7,8 @@ body {
 	padding-bottom: 20px;
 	font: normal 175% 'Head Font';
 }
-
-.center { text-align: center; align-content: center; float: none; margin-left: auto; margin-right: auto; vertical-align: center; }
+.center { -webkit-box-align: center; -moz-box-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-justify-content: center; -moz-justify-content: center; -ms-justify-content: center; justify-content: center; }
+/*.center { text-align: center; align-content: center; float: none; margin-left: auto; margin-right: auto; vertical-align: center; } */
 .bold { font-weight: 700; }
 .semi-bold { font-weight: 500; }
 .no-decoration { text-decoration: none; }
