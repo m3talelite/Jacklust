@@ -1,4 +1,6 @@
-# Jacklust
+# Jacklust Site
+
+* A cross-browser friendly site
 
 ### Prerequisites
 
@@ -21,20 +23,16 @@ to open de site simply dubbel click on "index.html" in the root folder.
 ```
 
 ## Frameworks
-* [Bootstrap]()
-* [Bootswatch Theme]()
-* [Normalize]()
-* [JQuery]()
-
-## Usefull information for me
-* [Carousel](https://desandro.github.io/3dtransforms/examples/carousel-01.html) - CSS3 3d Animation explanation
-* [Card Flip](https://desandro.github.io/3dtransforms/docs/card-flip.html) - CSS3 3d Animation explanation
+* [Bootstrap](https://getbootstrap.com/)
+* [Bootswatch Slate Theme](https://bootswatch.com/slate/)
+* [Normalize](https://necolas.github.io/normalize.css/)
+* [JQuery](https://jquery.com/)
 
 ## Authors
 
-* **Jelle Braat**
+* ** M3talelite **
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/Jacklust/contributors) who participated in this project.
 
 ## License
 
@@ -42,12 +40,9 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* Hat tip to anyone who's code was used;
+* Jacklust for letting me re-develop their site.
 
-*Initial work* 
-
-## Image
+## Prepare for War
 
 ![Jacklust](https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/15673055_1162744440507266_1513757156264181654_n.jpg?oh=a6d8de1512b67b683e05aae9e4dd1769&oe=59995876)
