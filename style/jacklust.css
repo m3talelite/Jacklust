@@ -1,20 +1,18 @@
 body {
-	/*background: url("http://jacklust.com/style/img/bg.png");
-	background-repeat: no-repeat;
-	background-size: 100% 100%; */
+
 }
-.page-jumbotron-h1 {
+.container .jumbotron h1 {
 	padding-bottom: 20px;
-	font: normal 175% 'Head Font';
+	font-family: 'Head Font';
 }
 .center { -webkit-box-align: center; -moz-box-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-justify-content: center; -moz-justify-content: center; -ms-justify-content: center; justify-content: center; }
-/*.center { text-align: center; align-content: center; float: none; margin-left: auto; margin-right: auto; vertical-align: center; } */
 .bold { font-weight: 700; }
 .semi-bold { font-weight: 500; }
+.visible { display: block !important; }
 .no-decoration { text-decoration: none; }
+.btn-spotify { position: absolute; right: 10%; top: 20px; width: 80px;}
 
 .flip-card {
-	/* TODO: set a fixed width + height for the cards; */
 	width: 200px;
 	height: 260px;
 	position: relative;
@@ -90,9 +88,7 @@ body {
 }
 
 .footer {
-	bottom: 0;
-	padding: 10px 0;
-	height: 48px;
+	
 }
 
 .col-h-100-px {
