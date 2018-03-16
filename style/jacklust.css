@@ -11,6 +11,7 @@ body {
 .visible { display: block !important; }
 .no-decoration { text-decoration: none; }
 .btn-spotify { position: absolute; right: 10%; top: 20px; width: 80px;}
+.panel .panel-body span { display: block; }
 
 .flip-card {
 	width: 200px;
