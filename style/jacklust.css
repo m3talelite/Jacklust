@@ -12,6 +12,15 @@ body {
 .no-decoration { text-decoration: none; }
 .btn-spotify { position: absolute; right: 10%; top: 20px; width: 80px;}
 .panel .panel-body span { display: block; }
+.large-font { font-size: 24px !important; }
+.medium-font { font-size: 18px !important; }
+.small-font { font-size: 15px !important; }
+.extra-small-font { font-size: 12px !important; }
+.header-img { height: 100%; display: inline-block !important; }
+
+.panel .panel-video {
+	width: 80%;
+}
 
 .flip-card {
 	width: 200px;
@@ -65,7 +74,9 @@ body {
 	background-color: pink;
 	background-position: center;
 }
-
+.panel-youtube-heading {
+	width: 560px;
+}
 .iframe-youtube-video {
 	width: 560px;
 	height: 315px;
@@ -88,40 +99,11 @@ body {
 	-o-transform: scale(1.1);
 }
 
-.footer {
-	
-}
-
-.col-h-100-px {
-	height: 100px;
-}
-.col-h-24 {
-	height: 100%;
-}
-.col-h-21 { 
-	height: 87.5%;
-}
-.col-h-18 { 
-	height: 75%;
-}
-.col-h-15 { 
-	height: 62.5%;
-}
-.col-h-12 { 
-	height: 50%;
-}
-.col-h-9 { 
-	height: 37.5%;
-}
-.col-h-6 { 
-	height: 25%;
-}
-.col-h-3 { 
-	height: 12.5%;
-}
-
 /* MEDIA QUERY MD */
 @media only screen and (max-width: 1200px) {
+	.panel-youtube-heading {
+		width: 480px;
+	}
 	.iframe-youtube-video {
 		width: 480px;
 		height: 270px;
@@ -130,6 +112,9 @@ body {
 
 /* MEDIA QUERY SM */
 @media only screen and (max-width: 992px) {
+	.panel-youtube-heading {
+		width: 352px;
+	}
 	.iframe-youtube-video {
 		width: 352px;
 		height: 198px;
@@ -138,6 +123,9 @@ body {
 
 /* MEDIA QUERY XS */
 @media only screen and (max-width: 768px) {
+	.panel-youtube-heading {
+		width: 288px;
+	}
 	.iframe-youtube-video {
 		width: 288px;
 		height: 162px;

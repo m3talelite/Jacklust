@@ -3,11 +3,11 @@ function toggleSpotify() {
 	var spotifyButton = $(".btn-spotify span");
 	if (spotifyIframe.height() === 80) { 
 		spotifyIframe.animate({height: 300}, 'fast');
-		spotifyButton.text("Minify");
+		spotifyButton.text("Less");
 	}
 	if (spotifyIframe.height() === 300) {
 		spotifyIframe.animate({height: 80}, 'fast');
-		spotifyButton.text("Expand"); 
+		spotifyButton.text("More"); 
 	}
 }
 

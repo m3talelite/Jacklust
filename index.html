@@ -26,15 +26,18 @@
 				       	<span class="icon-bar"></span>
 				       	<span class="icon-bar"></span>
 				    </button>
-      				<a class="navbar-brand header-home-button" href="#" onclick="switchTab('home')">Jacklust</a>
+      				<a class="navbar-brand header-home-button" href="#" onclick="switchTab('home')">
+      					<img class="header-img" src="assets/favicon_rounded.png"/>
+      					<span>Jacklust</span>
+      				</a>
 				</div>
 				<div class="collapse navbar-collapse" id="jacklust-navbar-collapse">
 			      <ul class="nav navbar-nav">
 			        <li><a href="#" onclick="switchTab('home')">Home</a></li>
 			        <li><a href="#" onclick="switchTab('about')">About</a></li>
 			        <li><a href="#" onclick="switchTab('media')">Media</a></li>
+			        <li><a href="#" onclick="switchTab('discography')">Discography</a></li>
 			        <li><a href="#" onclick="switchTab('show')">Shows</a></li>
-			        <li><a href="#" onclick="generateShowPanel('test')">Test</a></li>
 			      </ul>
 		            <ul class="nav navbar-nav navbar-right">
 			    	    <li><a href="#">contact us</a></li>
@@ -48,7 +51,8 @@
 			<!-- Start Content -->	
 			<div class="jumbotron">
 				<!-- Title -->
-				<h1 class="text-center">Welcome!</h1>
+				<h1 class="text-center">Welcome</h1>
+				<!--<div class="center"><img src="assets/logo.png"/></div> -->
 				<div class="row text-center">
 					<p> Sup guys, welcome to our brand new and incredibly sexy page. Plenty of stuff to do here, go listen to some of our music, or just enjoy our sexy pictures. Enjoy yer stay bitches! </p>
 				</div>
@@ -64,7 +68,7 @@
 					<div class="col-xs-12 center hidden-sm hidden-xs">
 						<iframe id="spotify-iframe" src="https://open.spotify.com/embed/artist/58hmRRhNOllxVHvs3SjPTc" width="450" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 						<button onclick="toggleSpotify()" class="btn btn-primary btn-spotify">
-							<span>Expand</span>
+							<span>More</span>
 						</button>
 					</div>
 					<div class="col-xs-12 center hidden-md hidden-lg">
@@ -72,14 +76,109 @@
 					</div>
 				</div>
 				<!-- End Home container -->
-				
-				<div id="about-container" class="row">
-					about
+				<!-- Start about container -->
+				<div id="about-container" class="row hidden">
+					<div class="col-xs-12">
+						<!-- Quotes -->
+						<div class="row">
+							<div class="col-sm-4"> 
+								<blockquote>
+									<p>Is dit jouw favoriete stijl, dan moet je ze horen! Professioneel zijn ze in ieder geval!</p>
+									<small>Popunie</small>
+								</blockquote>
+							</div>
+							<div class="col-sm-4">
+								<blockquote>
+									<p>Jacklust rockt de kersen van de taart. Wat een knalfeest!</p>
+									<small>Bandcoach Nederland</small>
+								</blockquote>
+							</div>
+							<div class="col-sm-4">
+								<blockquote>
+									<p>Party!!!</p>
+									<small>Wings of Death</small>
+								</blockquote>
+							</div>
+						</div>
+						<!-- end quote -->
+						<div class="row">
+							<div class="col-xs-12 col-md-6">
+								<img class="person-image" src=""/>
+							</div>
+							<div class="col-xs-12 col-md-6">
+								<img class="person-image" src=""/>
+							</div>
+							<div class="col-xs-12 col-md-6">
+								<img class="person-image" src=""/>
+							</div>
+							<div class="col-xs-12 col-md-6">
+								<img class="person-image" src=""/>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12"> 
+								<p class="medium-font">Mixing trashy riffs with punk, sleaze, booze, and lots and lots of backing vocals, that’s what the punks from Jacklust do best. </p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12"> 
+								<p class="medium-font"> The band Jacklust was formed in Rotterdam, somewhere in late 2011 and consists of guitarist Tizzy Wyre, El Barto Loco on the drums, bass player Mr.Mojo and Yellow on the main vocals. </p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12"> 
+								<p class="medium-font"> Having played with the likes of Sister, Adam Bomb, Rusted, and many more, having been played on English and American radio a dozen times and were even featured on the compilation CD of the praised Devolution Magazine! They wreak havoc at the venues they play at and usually leave their fans wondering just one thing: “What the hell happened last night?”. Renowned for their fast lyrics, loud guitars and a 'fuck things up' attitude, these guys are always in for a party, although they usually take it a bit too far. </p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12"> 
+								<p class="medium-font"> After having dropped their EP, called Primitive Measures, they were ready to take the world by storm. A white lightning fuelled storm. They later decided that the world was still too intact for their taste, so they decided to record a one/off single with a highly acclaimed video clip ‘Megaloathe’ in late 2014. In 2015 bass player Sidious and drummer H.D. decided to quit the band, which was a bit of a backlash, but the remaining members couldn’t sit still. They recruited the killer bass player Towah of Powah and a beast of a drummer El Barto Loco, who laid the killer foundation of their upcoming new singles. Needless to say, they’re back with a vengeance. The golden era of Jacklust has begun! </p>
+							</div>
+						</div>	
+					</div>
 				</div>
-				<div id="media-container" class="row">
-					Media
+				<!-- End about container -->
+				<!-- Start media container -->
+				<div id="media-container" class="row hidden">
+					<div class="col-xs-12 center">
+						<div class="panel panel-primary">
+							<div class="panel-heading">
+								<a class="no-decoration" data-toggle="collapse" href="#video-1">
+		    						<h3 class="panel-title panel-youtube-heading text-center">Prepare For War</h3>
+								</a>
+							</div>
+							<div class="panel-body panel-collapse collapse in" id="video-1">
+								<iframe class="iframe-youtube-video" src="https://www.youtube.com/embed/f2RtzmZFPAA" frameborder="0" allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 center">
+						<div class="panel panel-primary">
+							<div class="panel-heading">
+								<a class="no-decoration" data-toggle="collapse" href="#video-2">
+		    						<h3 class="panel-title panel-youtube-heading text-center">Megaloathe</h3>
+								</a>
+							</div>
+							<div class="panel-body panel-collapse collapse in" id="video-2">
+								<iframe class="iframe-youtube-video" src="https://www.youtube.com/embed/kZM_n2n_kDc" frameborder="0" allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 center">
+						<div class="panel panel-primary">
+							<div class="panel-heading">
+								<a class="no-decoration" data-toggle="collapse" href="#video-3">
+		    						<h3 class="panel-title panel-youtube-heading text-center">Where You Gonna Go?</h3>
+								</a>
+							</div>
+							<div class="panel-body panel-collapse collapse in" id="video-3">
+								<iframe class="iframe-youtube-video" src="https://www.youtube.com/embed/iPi-4zA9cH8" frameborder="0" allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
 				</div>
-				<div id="show-container" class="row">
+				<!-- End media container -->
+				<div id="show-container" class="row hidden">
 
 					<div class="col-xs-12">
 						<h3>Upcomming</h3>
@@ -90,6 +189,10 @@
 						<h3>Past</h3>
 					</div>
 					<div id="past-show-container" class="row"></div>
+
+				</div>
+
+				<div id="discography-container" class="row hidden">
 
 				</div>
 				<!-- End internal content -->				
